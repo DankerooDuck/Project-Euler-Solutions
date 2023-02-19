@@ -38,19 +38,27 @@ namespace ProjectEuler
                     Console.Clear();
                     return false;
                 case 1:
-                    problem1.run();
+                    Problem1.run();
                     Console.Clear();
                     return true;
                 case 2:
-                    problem2.run();
+                    Problem2.run();
                     Console.Clear();
                     return true;
                 case 3:
-                    problem3.run();
+                    Problem3.run();
                     Console.Clear();
                     return true;
                 case 4:
-                    problem4.run();
+                    Problem4.run();
+                    Console.Clear();
+                    return true;
+                case 5:
+                    Problem5.run();
+                    Console.Clear();
+                    return true;
+                case 6:
+                    Problem6.run();
                     Console.Clear();
                     return true;
             }
@@ -86,6 +94,8 @@ namespace ProjectEuler
             Console.Write("(2)".PadRight(3) + " |  ".PadLeft(4) + " Even Fibonacci Numbers".PadRight(50) + "\n");
             Console.Write("(3)".PadRight(3) + " |  ".PadLeft(4) + " Largest Prime Factor".PadRight(50) + "\n");
             Console.Write("(4)".PadRight(3) + " |  ".PadLeft(4) + " Largest Palindrome Product".PadRight(50) + "\n");
+            Console.Write("(5)".PadRight(3) + " |  ".PadLeft(4) + " Smallest Multiple".PadRight(50) + "\n");
+            Console.Write("(6)".PadRight(3) + " |  ".PadLeft(4) + " Sum Square Difference".PadRight(50) + "\n");
         }
 
         public static void promptContinue()

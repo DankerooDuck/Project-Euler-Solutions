@@ -8,7 +8,7 @@ using System.Xml.Schema;
 
 namespace Project_Euler
 {
-    internal class problem1
+    internal class Problem1
     {
         public static void description()
         {

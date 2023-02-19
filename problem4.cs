@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project_Euler
 {
-    internal class problem4
+    internal class Problem4
     {
         public static void description()
         {
@@ -16,13 +16,11 @@ namespace Project_Euler
             Console.WriteLine("The largest palindrome made from the product of two 2-digit numbers is: \n");
             Console.WriteLine("\t9009 = 91 x 99\n");
             Console.WriteLine("Find the largest palindrome made from the product of two 3-digit numbers.\n");
-
         }
 
         public static void solve()
         {
             long largestNumber = 0;
-
             
             for(int i = 100; i < 1000; i++)
             {

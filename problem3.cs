@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace Project_Euler
 {
-    internal class problem3
+    internal class Problem3
     {
         public static void description()
         {
             Console.WriteLine("\tProblem 3: Largest Prime Factor\n");
             Console.WriteLine("What is the largest prime factor of the number 600,851,475,143?\n");
-            
         }
 
         public static void solve()

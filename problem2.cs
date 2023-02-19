@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Project_Euler
 {
-    internal class problem2
+    internal class Problem2
     {
         public static void description()
         {
